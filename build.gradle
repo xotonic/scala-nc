@@ -1,0 +1,15 @@
+group 'org.eltex'
+version '1.0'
+
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.4'
+    compile 'org.scala-lang.modules:scala-parser-combinators_2.12:1.1.0'
+    compile 'org.parboiled:parboiled_2.12:2.1.4'
+    testCompile 'junit:junit:4.12'
+}
